@@ -1,5 +1,5 @@
 # Wetland_UNet
-This repo provides complete script used for wetland mapping (delineation of boundaries) using UNet, an architecture developed out of deep-learning model. The input variables comprise of multiple bands of Sentinel-2 and of NAIP. We have also trained a more complex model that includes LiDAR and geomorphons.
+This repo developed by Conservation Innovation Center of Chesapeake Conservancy and Defenders of Wildlife provides complete script used for wetland mapping (delineation of boundaries) using UNet, an architecture developed out of deep-learning model. The input variables comprise of multiple bands of Sentinel-2 and of NAIP. We have also trained a more complex model that includes LiDAR and geomorphons.
 
 ## Data
 The data used in this repo are in TFRecords format. The data was exported using Google Earth Engine in Google Colab environment.
