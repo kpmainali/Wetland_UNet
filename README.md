@@ -1,14 +1,14 @@
 # Wetland_UNet
-This repo developed by Conservation Innovation Center of Chesapeake Conservancy and Defenders of Wildlife provides complete script used for wetland mapping (delineation of boundaries) using UNet, an architecture developed out of deep-learning model. The input variables comprise of multiple bands of Sentinel-2 and of NAIP. We have also trained a more complex model that includes LiDAR and geomorphons.
+This repo developed by Conservation Innovation Center of Chesapeake Conservancy and Defenders of Wildlife contains code used to train UNet models that can delineate wetlands. The input variables comprise of multiple bands of Sentinel-2 and of NAIP. We have also trained a more complex model that includes LiDAR and geomorphons.
 
 ## Data
-The data used in this repo are in TFRecords format. The data was exported using Google Earth Engine in Google Colab environment.
+The data used in this repo are in TFRecords format. The data was exported using Google Earth Engine in Google Colab environment, and are available in an [Open Science Framework repository](https://osf.io/ts5eu/).
 
-## Script
-The python script used to train UNet model are available in this repo.
+## Scripts
+The python script used to train UNet model are available in this repo. To train models in an Azure ML Studio environment, clone this repository and navigate to the /azure directory. Then clone the https://github.com/mjevans26/Satellite_ComputerVision.git repo, which contains necessary modules. Follow the steps in the Setup.ipynb to create a suitable MLStudio environment and resources, then use Train.ipynb to train a model.
 
 ## Model
-The model we trained in Azure is available.
+The trained Keras model and weights are available in an [Open Science Framework repository](https://osf.io/ts5eu/).
 
 ## Storymap
 Electric Power Research Institute has developed a storymap out of this work. The storymap provides details of the data, method, model evaluation scores, types of models, etc. The storymap is availabe here: https://storymaps.arcgis.com/stories/4f98297b48a94efbbbe0199681539980
